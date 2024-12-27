@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC_Info</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="IMG/ava.jpg" type="image/x-icon">
+    <style>
+        body {
+            background-color: rgb(185, 173, 173); 
+            color: gray; 
+        }
+
+        .portfolio-thumb {
+            overflow: hidden; 
+            position: relative; 
+            transition: transform 0.3s ease, filter 0.3s ease; 
+            height: 300px; 
+        }
+
+        .portfolio-thumb img {
+            width: 100%; 
+            height: 90%; 
+            object-fit: cover; 
+            transition: transform 0.3s ease; 
+        }
+
+        .portfolio-thumb:hover img {
+            filter: brightness(60%); 
+            transform: scale(1.2); 
+        }
+
+        .portfolio-details {
+            position: absolute; 
+            top: 50%; 
+            left: 50%; 
+            transform: translate(-50%, -50%); 
+            padding: 20px; 
+            background-color: rgba(0, 2, 0, 0.477); 
+            color: rgb(33, 196, 33); 
+            opacity: 0; 
+            transition: opacity 0.3s ease, transform 0.3s ease; 
+        }
+
+        .portfolio-thumb:hover .portfolio-details {
+            opacity: 1; 
+            transform: translate(-50%, -50%); 
+        }
+
+        .single-portfolio-wrap {
+            margin-left: 0; 
+            padding: 0; 
+            box-sizing: border-box; 
+            width: 400px; 
+        }
+
+        .container {
+            margin-top: 80px; 
+        }
+
+        .portfolio-thumb {
+            margin-left: 10px;
+            width: 378px;
+        }
+
+        a {
+            color: rgb(30, 255, 0); 
+        }
+
+        a:hover {
+            color: rgb(100, 255, 100); 
+        }
+    </style>
+</head>
+<body>
+    <div class="text__center">
+        <p>PC_Info</p>
+    </div>
+    <section class="portfolio-area-wrapper mt-120 mt-md-80 mt-sm-60">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="single-portfolio-wrap">
+                        <figure class="portfolio-thumb">
+                            <img src="img_pc/hyperpc-desk-v2-pc.jpg" alt="Tri-O Typeface">
+                            <figcaption class="portfolio-details">
+                                <div class="port-info">
+                                    <h3><a href="https://hyperpc.ru/">Tri-O Typeface</a></h3>
+                                    <nav class="nav portfolio-cate">
+                                        <a href="https://hyperpc.ru/">Design</a>
+                                        <a href="https://hyperpc.ru/">Photography</a>
+                                    </nav>
+                                </div>
+                                <a href="https://hyperpc.ru/" class="btn-view-work">View Work <i class="fa fa-long-arrow-right"></i></a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="single-portfolio-wrap">
+                        <figure class="portfolio-thumb">
+                            <img src="img_pc/hyperpc-wall-conf.jpg" alt="Featured Chairs">
+                            <figcaption class="portfolio-details">
+                                <div class="port-info">
+                                    <h3><a href="https://hyperpc.ru/">Featured Chairs</a></h3>
+                                    <nav class="nav portfolio-cate">
+                                        <a href="https://hyperpc.ru/">Design</a>
+                                        <a href="https://hyperpc.ru/">Photography</a>
+                                    </nav>
+                                </div>
+                                <a href="https://hyperpc.ru/" class="btn-view-work">View Work <i class="fa fa-long-arrow-right"></i></a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="single-portfolio-wrap">
+                        <figure class="portfolio-thumb">
+                            <img src="img_pc/hyperpc-station-ultra-pc.jpg" alt="Creative Style">
+                            <figcaption class="portfolio-details">
+                                <div class="port-info">
+                                    <h3><a href="https://hyperpc.ru/">Creative Style</a></h3>
+                                    <nav class="nav portfolio-cate">
+                                        <a href="https://hyperpc.ru/">Design</a>
+                                        <a href="https://hyperpc.ru/">Photography</a>
+                                    </nav>
+                                </div>
+                                <a href="https://hyperpc.ru/" class="btn-view-work">View Work <i class="fa fa-long-arrow-right"></i></a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="single-portfolio-wrap">
+                        <figure class="portfolio-thumb">
+                            <img src="img_pc/1684793706895.webp" alt="Another Card">
+                            <figcaption class="portfolio-details">
+                                <div class="port-info">
+                                    <h3><a href="https://hyperpc.ru/">Another Card</a></h3>
+                                    <nav class="nav portfolio-cate">
+                                        <a href="https://hyperpc.ru/">Design</a>
+                                        <a href="https://hyperpc.ru/">Photography</a>
+                                    </nav>
+                                </div>
+                                <a href="https://hyperpc.ru/" class="btn-view-work">View Work <i class="fa fa-long-arrow-right"></i></a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="single-portfolio-wrap single-portfolio-wrap-up">
+                        <figure class="portfolio-thumb">
+                            <img src="img_pc/hyperpc-keyboard-tkl-color-black-conf-1200-389x219.jpg" alt="Creative Style">
+                            <figcaption class="portfolio-details">
+                                <div class="port-info">
+                                    <h3><a href="https://hyperpc.ru/">Creative Style</a></h3>
+                                    <nav class="nav portfolio-cate">
+                                        <a href="https://hyperpc.ru/">Design</a>
+                                        <a href="https://hyperpc.ru/">Photography</a>
+                                    </nav>
+                                </div>
+                                <a href="https://hyperpc.ru/" class="btn-view-work">View Work <i class="fa fa-long-arrow-right"></i></a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="single-portfolio-wrap">
+                        <figure class="portfolio-thumb">
+                            <img src="img_pc/razer-deathadder-v2-mini-grip.jpg" alt="Featured Chairs">
+                            <figcaption class="portfolio-details">
+                                <div class="port-info">
+                                    <h3><a href="https://hyperpc.ru/">Featured Chairs</a></h3>
+                                    <nav class="nav portfolio-cate">
+                                        <a href="https://hyperpc.ru/">Design</a>
+                                        <a href="https://hyperpc.ru/">Photography</a>
+                                    </nav>
+                                </div>
+                                <a href="https://hyperpc.ru/" class="btn-view-work">View Work <i class="fa fa-long-arrow-right"></i></a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="info__pc">
+            <p>
+                Игровой компьютер — это устройство для геймера-профессионала, предназначенное для высокой производительности и справляющееся с ресурсоёмкими задачами, такими как современные игры и работа с графикой.  2
+
+В игровом ПК, как правило, используются топовые комплектующие вкупе с мощной видеокартой. Современный ПК для геймера собирают на процессорах Intel Core i7 (i9) или AMD Ryzen 7 (9). 1
+
+Некоторые особенности игровых компьютеров:
+
+мощный блок питания и хорошо продуваемый корпус с несколькими вентиляторами; 
+высокоскоростная оперативная и постоянная память; 
+дискретная видеокарта, установленная на материнской плате через интерфейс PCIe; 
+система охлаждения, которая обеспечивает стабильную работу при максимальных нагрузках. 
+Для игровой сборки также важны монитор, колонки (наушники), клавиатура, мышь и другие игровые манипуляторы (руль, педали, шлем, джойстик).
+            </p>
+        </div>
+        <div class="img__pc">
+            <img src="img_pc/игровой пк.jpg" alt="">
+        </div>
+    </section>
+</body>
+</html>
+
